@@ -95,11 +95,27 @@ SUPERSTORE/
 |-- Documentation/
 |-- Power BI/
 |-- Python/
+|   |-- Superstore_EDA.ipynb
+|   |-- Phase_1_Data_Understanding.py
+|   |-- Phase_2_Data_Cleaning.py
+|   |-- Phase_3_Python_EDA.py
+|   |-- Visuals/
+|   `-- Requirements.txt
 |-- SQL/
 |-- README.md
-|-- LICENSE
-`-- Python/Requirements.txt
+`-- LICENSE
 ```
+
+## Python Analysis Files
+
+The Python workflow is available in both notebook and script format:
+
+- **Superstore_EDA.ipynb** - Original exploratory notebook containing the full step-by-step analysis flow.
+- **Phase_1_Data_Understanding.py** - Loads the raw dataset and performs initial data inspection.
+- **Phase_2_Data_Cleaning.py** - Cleans the raw data, creates derived date fields, removes duplicates, and exports the cleaned dataset.
+- **Phase_3_Python_EDA.py** - Performs visual exploratory data analysis and saves all charts as PNG files inside `Python/Visuals/`.
+
+This structure keeps the notebook useful for presentation and storytelling, while the Python scripts provide a cleaner, reusable workflow for running each phase independently.
 
 ## Dashboard Overview
 
